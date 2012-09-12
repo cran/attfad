@@ -8,7 +8,8 @@
   The function 'expressionStats' computes the list of statitics which are used as input for this function.
 }
 
-\usage{plotComparison(results.1, results.2, name.1, name.2, stat, type = "both", extendedAbsoluteIntensity = FALSE, bins = NA)}
+\usage{plotComparison(results.1, results.2, name.1, name.2, stat, type = "both",
+  extendedAbsoluteIntensity = FALSE, bins = NA)}
 
 \arguments{
   \item{results.1}{
@@ -60,7 +61,10 @@
 data(GNW.s.expression.data)
 data(GNW.s.network)
 data(GNW.s.exp.group)
-results <- expressionStats(GNW.s.expression.data, GNW.s.network, GNW.s.exp.group)
-results.p <- expressionStats(GNW.s.expression.data, GNW.s.network, GNW.s.exp.group, permute.genes=TRUE)
-plotComparison(results, results.p, 'n.normal', 'n.permuted', 'Absolute.intensity.distribution', type='both')
+results <- expressionStats(GNW.s.expression.data[,1:200],
+  GNW.s.network, GNW.s.exp.group)
+results.p <- expressionStats(GNW.s.expression.data[,1:200],
+  GNW.s.network, GNW.s.exp.group, permute.genes=TRUE)
+plotComparison(results, results.p, 'n.normal', 'n.permuted',
+  'Absolute.intensity.distribution', type='both')
 }

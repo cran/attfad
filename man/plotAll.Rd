@@ -48,7 +48,9 @@ Robert Maier
 data(GNW.s.expression.data)
 data(GNW.s.network)
 data(GNW.s.exp.group)
-results <- expressionStats(GNW.s.expression.data, GNW.s.network, GNW.s.exp.group)
-results.p <- expressionStats(GNW.s.expression.data, GNW.s.network, GNW.s.exp.group, permute.genes=TRUE)
+results <- expressionStats(GNW.s.expression.data[,1:200],
+  GNW.s.network, GNW.s.exp.group)
+results.p <- expressionStats(GNW.s.expression.data[,1:200],
+  GNW.s.network, GNW.s.exp.group, permute.genes=TRUE)
 plotAll(results, results.p, 'n.normal', 'n.permuted', type='both')
 }

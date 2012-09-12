@@ -1,5 +1,5 @@
-08efc35d4560d6a75a1bad4a25dd17cc *DESCRIPTION
-6064af3f8b39de895d2369e36210ba45 *NAMESPACE
+9e4081d72016a1e147fd69859f3e13ea *DESCRIPTION
+0e1e64b19aec553ce15121f301f54053 *NAMESPACE
 876495a6881b5dbfe64f9544fd50591c *R/assignReplicateGroups.R
 46198f5611106a97050d3070a441b5b3 *R/calcCorScore.R
 211b4109edd3c13fc3607431c901e8a5 *R/calcOverlapScore.R
@@ -18,7 +18,7 @@ d883728d5ce6f3faa5b62f02155d5675 *R/plotAbsIntHist.R
 bbeafe3cfd7e33db44f9053f80dc429a *R/plotComparison.R
 9b52a69806083c6b7676129a59ff07df *R/plotEnrichment.R
 c9b0e26aaf1b1ad59f8e7d1dcc184412 *R/plotHist.R
-183d2a28a060639b4d48bea7202b762d *R/plotQQ.R
+15c12f2c8dacb963bed42cbcfce442f1 *R/plotQQ.R
 5d5587eaf0e54b3c4c6d05144dc3de86 *R/replicateGroupCorrelation.R
 e99b4a6082cfc520f599c6319a5f8b86 *data/GNW.s.exp.group.rda
 3586c8b63138f0363e2bcf85f27c94be *data/GNW.s.expression.data.rda
@@ -29,7 +29,7 @@ ffdaf884a1c45e4c50bffce6a89b3155 *man/GNW.s.exp.group.Rd
 0ab81d08e06a3117966b2f5d79d196dd *man/attfad-internal.Rd
 b3c7b30a13a925dee26c220377bc4426 *man/attfad.package.Rd
 9aed1ff48243d9062878f3c6e9695fa4 *man/expressionStats.Rd
-14c825db61da689644a4c1d8c3de32c3 *man/getAllScores.Rd
-69090fa8ceab50e42278f90a85e5f8e9 *man/plotAll.Rd
-daa3df058cf86dfaf88864c593977411 *man/plotComparison.Rd
+cefa2cfcaf78e17aad55917b9228caac *man/getAllScores.Rd
+96b920dfeb61b66b1edd4573de3eaa72 *man/plotAll.Rd
+3c60c9b03222a5d529148fcde2b50d27 *man/plotComparison.Rd
 3b8261b4daea3bc1b1d7f7c8fed304e5 *src/cluster.c
