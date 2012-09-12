@@ -1,0 +1,3 @@
+useDynLib("attfad", .registration=TRUE)
+import(MethComp)
+exportPattern("^[[:alpha:]]+")
